@@ -1,0 +1,249 @@
+@font-face {
+    font-family:'Fuggles';
+    src: url(fonts/Fuggles-Regular.ttf);
+}
+
+html {
+    background: #747474;
+    background-image: linear-gradient(0deg, #FFD6D6, #FFFED6, #DAFFD6, #D6FFF8, #D8D6FF, #FFD6FC);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    color: #111;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, 'Fuggles';
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 700px;
+    min-width: 700px;
+    padding: 1em 4em 0em;
+    border-bottom: #EAEAEA 100px solid;
+    border-top: #747474 30px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: #545454;
+    background-image: linear-gradient(90deg, #FF8585, #FFF285, #9EFF85, #85E9FF, #AF85FF, #FF85E5);
+    border-radius: 10px;
+    padding: .1em .5em .1em;
+    font-family: 'Fuggles';
+    font-size: 5em;
+    line-height: 1;  
+    box-shadow: 5px 5px 10px 3px rgba(60, 15, 0, .19);
+    margin: 10px 0px;
+}
+
+h1.title{
+    transition: transform .3s;
+}
+
+h1.title:hover {
+    transform: translateY(5px);
+    box-shadow: 5px 5px 10px 3px rgba(60, 15, 0, .09)inset;
+}
+
+h1.buy-button {
+    margin: 0px 160px 60px;
+    background-image: linear-gradient(90deg, #FFD6D6, #FFFED6, #DAFFD6, #D6FFF8, #D8D6FF, #FFD6FC);
+    transition: transform .3s;
+}
+
+h1.buy-button:hover{
+    transform: translateY(5px);
+    box-shadow: 5px 5px 10px 3px rgba(30, 0, 0, .15)inset; 
+}
+
+h2{
+    text-align: center;
+    color: rgba(0,0,0,);
+    border-radius: 2px;
+    font-family: 'Fuggles';
+    font-size: 0em;  
+}
+
+p.in-border-text {
+    padding: 5px 0px 5px 10px;
+    border-left: #A9A9A9 .99px solid;
+    border-radius: 5px;
+    color: #606060;
+    font-size: 17.25px;
+    font-weight: 300;
+    margin: 15px;
+    line-height: 1.3;
+}
+
+p.top-page-text {
+    text-align: center;
+    font-weight: 200;
+    padding: 10px 0px 20px;
+    margin: 0px 10px 20px;
+    color: #7B7B7B;
+    font-size: 14px;
+    border-bottom: #A9A9A9 1px solid;
+    border-radius: 10px;
+}
+
+p.bottom-page-text {
+    text-align: center;
+    font-weight: 200;
+    color: #606060;
+    font-size: 17px;
+    margin: 15px 0px
+}
+
+p.terms-of-condition {
+    text-align: center;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 13px;  
+}
+
+p.text-cereal-box {
+    writing-mode: vertical-lr;
+    font-size: 37px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+p#vertical-text-one {
+    transition: transform 0.3s; 
+    font-weight: 300;
+}
+
+p#vertical-text-one:hover {
+    transform: translateY(15px);
+    color: white;
+    text-shadow: 1px 1px white, -1px -1px #111;
+}
+
+p#vertical-text-two {
+    transition: transform 0.3s; 
+    font-weight: 300;
+}
+
+p#vertical-text-two:hover {
+    transform: translateY(15px);
+    color: white;
+    text-shadow: 1px 1px white, -1px -1px #111;
+}
+
+p#vertical-text-three {
+    transition: transform 0.3s; 
+}
+
+p#vertical-text-three:hover {
+    transform: translateY(15px);
+    color: white;
+    text-shadow: 1px 1px white, -1px -1px #111;
+}
+
+
+
+img{
+    background: transparent;
+    border-radius: 4px;
+    width: 290px;
+    margin: 15px;
+}
+
+img.dropdown{
+    width: 50px;
+    height: 50px;
+    margin: 22px 0px 0px 0px;
+    opacity: 70%;
+}
+
+img.cereal-box {
+    width: 500px;
+    border-left: #111 3px solid;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+div.my-columns {
+    display: flex;
+}
+
+div#cereal-box {
+    margin: 40px 0px 10px;
+}
+
+div#boxes {
+    border-top: #A9A9A9 1px solid;
+    border-radius: 10px;
+    padding-top: 20px
+}
+
+div.my-columns-two {
+    margin: 0px;
+}
+
+div.my-border {
+    width: 97%;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px 3px rgba(60, 15, 0, .09)inset; 
+}
+
+div#box {
+    width: 80%;
+    transition: transform 0.3s; 
+}
+
+div#box:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px 5px rgba(60, 15, 0, .09);
+}
+
+div#pic-one {
+    margin-bottom: 20px;
+    transition: transform 0.3s; 
+}
+
+div#pic-one:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px 5px rgba(60, 15, 0, .09);
+}
+
+div#pic-two {
+    transition: transform 0.3s; 
+}
+
+div#pic-two:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px 5px rgba(60, 15, 0, .09);
+}
+
+
+div.my-header-title {
+    width: 85%;
+    margin: 10px;
+}
+
+div.my-header-menu {
+    width: 90px;
+    border-radius: 10px;
+   box-shadow: 5px 5px 10px 3px rgba(60, 15, 0, .19);
+    margin: 20px 0px;
+    text-align: center;
+    transition: transform 0.3s; 
+}
+
+div.my-header-menu:hover {
+    transform: translateY(5px);
+    box-shadow: 5px 5px 10px 3px rgba(60, 15, 0, .09)inset;
+}
+
+p.terms-of-condition {
+    text-align: center;
+    font-weight: 200;
+    font-size: 13px;  
+    border-bottom: 0px;
+}
